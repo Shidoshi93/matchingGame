@@ -1,5 +1,10 @@
-import './style.css'
+import './src/styles/configs/style.css'
+import './src/styles/generic/reset.css'
+import './src/styles/elements/base.css'
 
-document.querySelector('#root').innerHTML = `
-  Initial Project
-`
+import CardGame from './src/components/CardGame'
+
+
+const $root = document.querySelector('#root')
+
+$root.insertAdjacentHTML('beforeend', CardGame('Daniel'))
