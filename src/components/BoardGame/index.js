@@ -2,11 +2,11 @@ import './style.css'
 import CardsContainer from "../CardsContainer"
 import Header from '../HeaderGame'
 
-const BoardGame = (cardGame) => {
+const BoardGame = () => {
     return `
         <div class="board-game">
             ${Header()}
-            ${CardsContainer(cardGame, 6)}
+            ${CardsContainer(2)}
         </div>
     `
 }
