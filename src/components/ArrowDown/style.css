@@ -1,0 +1,8 @@
+.arrow-down-container {
+    display: flex;
+    justify-content: center;
+}
+
+.arrow-down {
+    width: 20px;
+}

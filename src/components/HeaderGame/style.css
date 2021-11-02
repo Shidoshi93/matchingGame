@@ -3,6 +3,13 @@
     height: 50px;
 
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 10px;
+}
+
+.points-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
