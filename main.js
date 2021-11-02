@@ -7,6 +7,6 @@ import CardsContainer from './src/components/CardsContainer'
 import BoardGame from './src/components/BoardGame'
 
 const $root = document.querySelector('#root')
-const $BoardGame = BoardGame(CardGame())
+const $BoardGame = BoardGame()
 
 $root.insertAdjacentHTML('beforeend', $BoardGame)
