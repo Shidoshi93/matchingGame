@@ -6,7 +6,7 @@ const BoardGame = () => {
     return `
         <div class="board-game">
             ${Header()}
-            ${CardsContainer(2)}
+            ${CardsContainer(6)}
         </div>
     `
 }
