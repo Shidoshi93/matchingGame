@@ -1,6 +1,8 @@
+import './style.css'
+
 const PlayerName = (name) => {
     return `
-        <div>
+        <div class="player-name">
             ${name}
         </div>
     `

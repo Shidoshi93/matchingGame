@@ -1,5 +1,6 @@
 body {
     background-color: var(--color-pomb-and-power);
+    font-family: 'Press Start 2P', cursive;
 }
 
 #root {
